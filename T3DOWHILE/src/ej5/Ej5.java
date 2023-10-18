@@ -18,12 +18,12 @@ public class Ej5 {
 			default -> "Introduzca mayor, menor o igual";
 			};
 			if ("mayor" .equals(respuesta)) {
-			numeror=(int)(Math.random()*100+1);
+			numeror=(int)(Math.random()*numeror+);
 			System.out.println("¿Es?:" + numeror );
 			respuesta=sc.nextLine();
 			}
 			else if ("menor" .equals(respuesta)) {
-			numeror=(int)(Math.random()*100+1);
+			numeror=(int)(Math.random()*numeror+1);
 			System.out.println("¿Es?:" + numeror );
 			respuesta=sc.nextLine();
 			}
